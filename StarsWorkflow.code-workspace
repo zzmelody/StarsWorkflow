@@ -1,0 +1,83 @@
+{
+	"folders": [
+	  {
+		"path": "."
+	  }
+	],
+	"settings": {
+	  "files.associations": {
+		  ".code-workspace": "jsonc",
+		  ".eslintrc": "jsonc",
+		  ".eslintrc*.json": "jsonc",
+		  ".stylelintrc": "jsonc",
+		  "stylelintrc": "jsonc",
+		  "README": "markdown"
+		},
+		"search.useIgnoreFiles": true,
+		"search.exclude": {
+		  "**/dist": true,
+		  "**/*.log": true,
+		  "**/*.pid": true,
+		  "**/.git": true,
+		  "**/node_modules": true
+		},
+		//
+		"editor.rulers": [120, 180],
+		"files.eol": "\n",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		//
+		"cSpell.diagnosticLevel": "Hint",
+		"eslint.run": "onType",
+		"eslint.probe": [
+		  "javascript",
+		  "javascriptreact",
+		  "typescript",
+		  "typescriptreact",
+		  "vue"
+		],
+		"eslint.format.enable": true,
+		"eslint.lintTask.enable": true,
+		"eslint.workingDirectories": [
+			{"directory": "webs/jobclubweb", "changeProcessCWD": true},
+			{"directory": "common/**", "changeProcessCWD": true},
+			{"directory": "editors/UnitModelEditor", "changeProcessCWD": true}
+		],
+
+		"javascript.validate.enable": false,
+		"typescript.validate.enable": true,
+		"css.validate": false,
+		"scss.validate": false,
+		"less.validate": false,
+		"editor.wordWrapColumn": 120,
+		"editor.wordWrap": "off",
+		"editor.codeActionsOnSave": {
+		  "source.fixAll.eslint": "always"
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+
+		"javascript.format.enable": false,
+		"typescript.format.enable": false,
+		//
+		"json.format.enable": false,
+		"emmet.triggerExpansionOnTab": true,
+		"typescript.tsdk": "node_modules/typescript/lib",
+	  },
+	  "extensions": {
+		  "recommendations": [
+			  "styled-components.vscode-styled-components",
+			  "EditorConfig.editorconfig",
+			  "dbaeumer.vscode-eslint",
+			  "esbenp.prettier-vscode",
+			  "streetsidesoftware.code-spell-checker",
+			  "codezombiech.gitignore",
+			  "aaron-bond.better-comments",
+			  "jasonnutter.search-node-modules",
+			  "jock.svg",
+			  "mikestead.dotenv",
+			  "vscode-icons-team.vscode-icons"
+			]
+	  }
+  }
